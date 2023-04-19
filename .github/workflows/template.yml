@@ -201,8 +201,9 @@ jobs:
         with:
           branch: gh-pages
           folder: build/WebGL
+  name: Vercel Production Deployment
 
-   deploy-Production-Vercel:
+  Deploy-Production:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
