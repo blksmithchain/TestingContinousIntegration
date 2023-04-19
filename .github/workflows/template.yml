@@ -202,7 +202,7 @@ jobs:
           branch: gh-pages
           folder: build/WebGL
 
-   Deploy-Production-Vercel:
+   deploy-Production-Vercel:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
